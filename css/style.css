@@ -1,0 +1,9 @@
+#slider_text{
+	width: 40%; height: 780px; float: right; background: rgba(0,29,216,.4);
+}
+@media screen and (max-width: 900px){
+	#slider-text{
+		width: 40%; 
+		background: rgba(0,29,216,.4);
+	}
+}

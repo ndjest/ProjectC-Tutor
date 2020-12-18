@@ -1,0 +1,146 @@
+*,*:after,*::before{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	background-color: lightgray;
+	background-image: url("bg.png");
+	background-position: ;
+	background-size: cover;
+	margin: 0;
+}
+
+h1{
+		color: white;
+		font-family:arial ;
+		text-align: center;
+		font-size: 34px;
+		font-style: italic;
+		font-weight: bolder;
+
+
+	}
+	.container {
+		width: 1100px;
+		/*width: 1100px; */
+		height: auto; 
+		overflow: auto;
+		/*background-color: #fff; */
+		margin: 0 auto 0 auto;
+	}
+	.box{
+		width: 400px;
+		height: auto;
+		overflow: auto;
+		min-height: 300px;
+		float: right;
+		background: rgba(255,255,255,1);
+		border-radius: 0px 0px 40px 40px;
+		-moz-border-radius: 0 0 40 40px;
+
+	
+	}
+	
+	.box h2{
+		color: #00d46b;
+		font-size: 30px;
+		text-shadow	: #777 0px 2px 3px;
+		text-align: center;
+
+	}
+	.c-box{
+		width: 400px;
+		float: right;
+		height: auto;
+		overflow: auto;
+		clear: both;
+		margin-top: -70px;
+
+	}
+	.c-box .circle{
+		width: 150px;
+		height: 150px;
+		overflow: auto;
+		background: #db1414;
+		border-radius: 50%;
+		margin: 0 auto 0 auto;
+		text-align: center;
+		padding: 40px 0 0 0;
+		color: #fff;
+		border: 5px solid #e7e7e7;
+	}
+.c-box a{
+	text-decoration: none;
+}
+.c-box a:hover{
+	color: #db1414;
+}
+
+.listen{
+	width: 600px;
+	height: auto;
+	overflow: auto;
+	background-color: rgba(255,255,255,.7);
+	margin: 50px auto 0px auto;
+	min-height: 400px;
+
+	
+}
+.listen h2 {
+	text-align: center;
+	color: #777777;
+
+}
+.listen a{
+	color: red;
+	text-decoration: none;
+
+}
+.listen a:hover{
+	color: orange;
+	text-decoration: underline;
+}
+.contact{
+	width: 600px;
+	height: auto;
+	padding: 20px  50px 50px 50px;
+	background: rgba(0,5,2,.7);
+	margin: 70px auto 0 auto;
+
+}
+input[type="text"]{
+	width: 100%;
+	height: 40px;
+	/*margin: 0 auto 0 auto;*/
+	padding: 10px 0 10px 20px;
+
+}
+.fstyle{
+	width: 100%;
+	height: 40px;
+	padding: 10px 0px 10px 20px;
+	margin: 20px 0 20px 0px;
+}
+textarea{
+	width: 100%;
+	height: 200px;
+	padding: 10px 0 10px 20px;
+	margin: 20px 0 20px 0;
+	resize: none;
+}
+.button{
+	width: 100%;
+	height: 40px;
+	background: rgba(0,0,0,0.3);
+	/*background: #39add1;*/
+	color: white;
+	-moz-outline: thin;
+	-moz-transition: all is ease-in-out;
+}
+.button:hover{
+	background: red;
+	color:#fff;
+}
